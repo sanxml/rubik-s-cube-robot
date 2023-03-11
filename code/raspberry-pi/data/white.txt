@@ -1,0 +1,9 @@
+white
+green
+green
+blue
+white
+green
+red
+blue
+green

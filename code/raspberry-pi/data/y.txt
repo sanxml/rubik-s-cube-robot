@@ -1,0 +1,9 @@
+blue
+orange
+yellow
+yellow
+yellow
+orange
+blue
+blue
+red
