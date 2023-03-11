@@ -61,7 +61,7 @@
 
 在图片分割矫正和色彩空间转换后，就要将魔方每一个面的九个色块的LAB和HSV色彩空间的值都存储起来，以便后续进行颜色识别分类，相应代码如下图。
 
-具体图像处理代码见[代码](code\raspberry-pi\cube.py)
+具体图像处理代码见[代码](code/raspberry-pi/cube.py)
 
 ![opencv4](./asset/opencv4.png)
 
@@ -69,7 +69,7 @@
 
 ![opencv5](./asset/opencv5.png)
 
-具体聚类代码见[代码](code\raspberry-pi\kmeans.py)
+具体聚类代码见[代码](code/raspberry-pi/kmeans.py)
 
 ### 魔方算法设计
 
@@ -91,7 +91,7 @@
 
 ![cube3](./asset/cube3.png)
 
-具体魔方算法代码见[代码](code\raspberry-pi\solution.py)
+具体魔方算法代码见[代码](code/raspberry-pi/solution.py)
 
 ### GUI界面设计
 
@@ -99,6 +99,6 @@
 
 GUI界面主要由四部分组成，左上部分为摄像头的实时图像，可以方便显示魔方的实况；右上部分为识别到的魔方序列图解，可以全面的显示识别结果以及魔方整体的初始状态；左下部分为文本框，显示魔方的解法等信息；右下角有两个用户按键，一个可以发送转动信号，得到魔方的初始状态，另一个则是一键运行解魔方程序，具体界面如图5-3-1所示。
 
-具体GUI界面代码见[代码](code\raspberry-pi\gui.py)
+具体GUI界面代码见[代码](code/raspberry-pi/gui.py)
 
 ![GUI](./asset/GUI.png)
